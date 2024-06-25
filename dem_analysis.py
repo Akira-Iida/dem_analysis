@@ -44,6 +44,6 @@ def plot_altitude_profile(dem_file_path, start, end):
         plt.ylabel('Elevation (m)')
         plt.show()
 
-# デモの実行
+# Running the demo
 create_overview_image(dem_file_path)
 plot_altitude_profile(dem_file_path, (3600, 1200), (1200, 4800))
